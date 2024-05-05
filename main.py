@@ -32,7 +32,7 @@ def print_help():
     
 
 def main():
-    init(autoreset=True)  # Initialize colorama
+    init(autoreset=True)
     print_welcome_message()
 
     file_manager = FileManager("tasks.pkl")
